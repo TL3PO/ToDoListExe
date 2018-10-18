@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:textAlignment="center"
+        android:text="Welcome to TLdolist"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <EditText
+        android:id="@+id/username_log"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:layout_marginTop="55dp"
+        />
+    <EditText
+        android:id="@+id/password_log"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginTop="105dp"
+        />
+    <Button
+        android:id="@+id/log_btn"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="165dp"
+        />
+    <TextView
+        android:id="@+id/register_link"
+        android:textStyle="bold"
+        android:text="REGISTER"
+        android:textColor="@color/RegBlue"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="230dp"/>
+
+</RelativeLayout>
